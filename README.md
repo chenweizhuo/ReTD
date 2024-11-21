@@ -31,7 +31,7 @@ data
 
 ### Reconstruction
 
-VAE
+The version of VAE is stable-diffusion-2-base, which can be downloaded locally from huggingface and saved in path CompVis/stable-diffusion-2-base.
 To extract reconstruction feature, you can run
 ```
 python data_process_diff.py
