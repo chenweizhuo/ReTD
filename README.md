@@ -23,26 +23,13 @@ Note the following:
 Our data can be downloaded from [GenImage](https://github.com/GenImage-Dataset/GenImage). Extract the `.zip` file and place the `data` directory inside the root directory of this repository.
 All generated images are readily available in `data/generated`. For Stable Diffusion and Kandinsky, the directory name also contains the CLIP model used to extract the prompts, e.g., `CompVis-stable-diffusion-v1-1-ViT-L-14-openai`. We also provide the extracted prompts in `data/raw/prompts`.
 ```
-images/recons/dire
-└── train/val/test
-    ├── lsun_bedroom
-    │   ├── real
-    │   │   └── img1.png...
-    │   ├── adm
-    │   │   └── img1.png...
-    │   └── ...
-    ├── imagenet
-    │   ├── real
-    │   │   └── img1.png...
-    │   ├── adm
-    │   │   └── img1.png...
-    │   └── ...
-    └── celebahq
-        ├── real
-        │   └── img1.png...
-        ├── adm
-        │   └── img1.png...
-        └── ...
+data
+└── real
+├── adm
+├── biggan
+├── midjourney
+└── ...
+
 
 **Real Images**
 Since the real images from LAION-5B are subject to copyright, we cannot distribute them (see [FAQ](https://laion.ai/faq/)).
