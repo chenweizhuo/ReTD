@@ -15,12 +15,11 @@ Note the following:
 - Your results might differ slightly due to randomness and different library versions.
 - Code to reconstruct the tables and figures is provided in the notebooks corresponding to the script names.
 - Most results are automatically cached to avoid repeated computations (the `cache` directory can grow quite large).
-- All reconstructions are saved in `data/reconstructions`, in unique directories for each configuration.
+- All reconstructions are saved in `preprocessed_data`, in unique directories for each configuration.
 
 ### Data
 
-**Generated Images**
-Our data can be downloaded from [GenImage](https://github.com/GenImage-Dataset/GenImage). Extract the `.zip` file and place the `data` directory inside the root directory of this repository. The real folder contains the collected images from ImageNet.
+Our generated images data can be downloaded from [GenImage](https://github.com/GenImage-Dataset/GenImage). Extract the `.zip` file and place the `data` directory inside the root directory of this repository. The real folder contains the collected images from ImageNet.
 ```
 data
 ├── real
@@ -29,11 +28,6 @@ data
 ├── midjourney
 └── ...
 
-
-**Real Images**
-Since the real images from LAION-5B are subject to copyright, we cannot distribute them (see [FAQ](https://laion.ai/faq/)).
-Therefore, you will have to reconstruct the real dataset from the image URLs provided in `data/real/real_metadata.parquet`.
-The following command will attempt to download the images from their respective URLs to `tmp/laion`:
 ```
 img2dataset --url_list data/raw/real/real_metadata.parquet --input_format "parquet" --url_col "URL" --caption_col "TEXT" --output_folder tmp/laion --resize_mode "center_crop" --min_image_size 512 --max_image_area 589824 --image_size 512 --encode_format "png" --encode_quality 6
 ```
