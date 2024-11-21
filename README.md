@@ -20,8 +20,7 @@ Note the following:
 ### Data
 
 **Generated Images**
-Our data can be downloaded from [GenImage](https://github.com/GenImage-Dataset/GenImage). Extract the `.zip` file and place the `data` directory inside the root directory of this repository.
-All generated images are readily available in `data/generated`. For Stable Diffusion and Kandinsky, the directory name also contains the CLIP model used to extract the prompts, e.g., `CompVis-stable-diffusion-v1-1-ViT-L-14-openai`. We also provide the extracted prompts in `data/raw/prompts`.
+Our data can be downloaded from [GenImage](https://github.com/GenImage-Dataset/GenImage). Extract the `.zip` file and place the `data` directory inside the root directory of this repository. The real folder contains the collected images from ImageNet.
 ```
 data
 ├── real
