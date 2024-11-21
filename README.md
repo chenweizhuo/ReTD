@@ -24,7 +24,7 @@ Our data can be downloaded from [GenImage](https://github.com/GenImage-Dataset/G
 All generated images are readily available in `data/generated`. For Stable Diffusion and Kandinsky, the directory name also contains the CLIP model used to extract the prompts, e.g., `CompVis-stable-diffusion-v1-1-ViT-L-14-openai`. We also provide the extracted prompts in `data/raw/prompts`.
 ```
 data
-└── real
+├── real
 ├── adm
 ├── biggan
 ├── midjourney
