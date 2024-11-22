@@ -60,3 +60,9 @@ preprocessed_data
 
 ViT can be downloaded locally from the hugging face website and saved in path `experiments/models_load/vit-base-patch16-224`.
 
+You can change the code in `dataloaders.py` to control the amount of training data and test data.
+
+For the traceability experiment, you can train Discriminative Module by running 
+```
+experiments/multi_class.py
+```
