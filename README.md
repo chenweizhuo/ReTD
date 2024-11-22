@@ -37,6 +37,7 @@ To extract reconstruction feature, you can run
 ```
 python data_process_diff.py
 ```
+Reconstruction with no automation set up, the file paths in the code need to be changed to enable processing of all categories.
 
 The extracted reconstructed features are recommended to be saved in the following format
 ```
