@@ -38,6 +38,19 @@ To extract reconstruction feature, you can run
 python data_process_diff.py
 ```
 
+The extracted reconstructed features are recommended to be saved in the following format
+```
+data
+├── real
+├── real_train
+├── adm
+├── adm_train
+├── biggan
+├── biggan_train
+├── midjourney
+├── midjourney_train
+└── ...
+```
 
 ### Train Discriminative Module
 
