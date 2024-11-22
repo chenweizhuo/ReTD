@@ -41,16 +41,19 @@ Reconstruction with no automation set up, the file paths in the code need to be 
 
 The extracted reconstructed features are recommended to be saved in the following format
 ```
-data
-├── real
-├── real_train
-├── adm
-├── adm_train
-├── biggan
-├── biggan_train
-├── midjourney
-├── midjourney_train
-└── ...
+preprocessed_data
+└── type
+    └── _CompVis_stable-diffusion-2-base
+        ├── real
+        ├── real_train
+        ├── adm
+        ├── adm_train
+        ├── biggan
+        ├── biggan_train
+        ├── midjourney
+        ├── midjourney_train
+        └── ...
+
 ```
 
 ### Train Discriminative Module
