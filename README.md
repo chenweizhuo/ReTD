@@ -14,7 +14,7 @@ Here we provide the commands to reproduce our experimental results.
 Note the following:
 - Your results might differ slightly due to randomness and different library versions.
 - Code to reconstruct the tables and figures is provided in the notebooks corresponding to the script names.
-- Most results are automatically cached to avoid repeated computations (the `cache` directory can grow quite large).
+- Since we are using an offline environment for our experiments, we need to load the pre-trained model locally for use. Or you can change the code to access hugging face directly.
 - All reconstruction featrues are saved in `preprocessed_data`, in unique directories for each configuration.
 
 ### Data
