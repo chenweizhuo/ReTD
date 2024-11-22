@@ -74,3 +74,8 @@ For the Incremental experiment, you can train Discriminative Module by running
 ```
 experiments/increment_class.py
 ```
+If you want to do data imbalance detection, you can change the number of test data for the `multi_dataload` function in `dataloader.py` and run
+```
+experiments/multi_test.py
+```
+
