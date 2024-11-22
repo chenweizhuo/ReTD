@@ -66,3 +66,11 @@ For the traceability experiment, you can train Discriminative Module by running
 ```
 experiments/multi_class.py
 ```
+For the binary detection experiment, you can train Discriminative Module by running 
+```
+experiments/binary_class.py
+```
+For the Incremental experiment, you can train Discriminative Module by running 
+```
+experiments/increment_class.py
+```
