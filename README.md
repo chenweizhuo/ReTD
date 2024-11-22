@@ -78,4 +78,4 @@ If you want to do data imbalance detection, you can change the number of test da
 ```
 experiments/multi_test.py
 ```
-
+It is worth noting that when executing the test file code, be sure to determine the path to the trained parameters.
