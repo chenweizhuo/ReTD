@@ -55,5 +55,5 @@ data
 
 ### Train Discriminative Module
 
-
+ViT can be downloaded locally from the hugging face website and saved in path `experiments/models_load/vit-base-patch16-224`.
 
