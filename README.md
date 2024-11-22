@@ -42,7 +42,7 @@ Reconstruction with no automation set up, the file paths in the code need to be 
 The extracted reconstructed features are recommended to be saved in the following format
 ```
 preprocessed_data
-└── type
+└── only_diff
     └── _CompVis_stable-diffusion-2-base
         ├── real
         ├── real_train
